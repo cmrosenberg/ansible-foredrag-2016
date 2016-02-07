@@ -20,6 +20,7 @@ Se de forskjellige mappene for kode jeg viste under foredraget. Hver mappe har e
 * Sysadmin Casts' serie om Ansible ([Del 1](https://sysadmincasts.com/episodes/43-19-minutes-with-ansible-part-1-4), [Del 2](https://sysadmincasts.com/episodes/45-learning-ansible-with-vagrant-part-2-4), [Del 3](https://sysadmincasts.com/episodes/46-configuration-management-with-ansible-part-3-4)og [Del 4](https://sysadmincasts.com/episodes/47-zero-downtime-deployments-with-ansible-part-4-4))
 * [Servers for Hackers' videoer om Ansible](https://serversforhackers.com/series/ansible)
 * [Jeff Geerlings utmerkede introduksjonsvideo til Ansible](https://youtu.be/ZNB1at8mJWY). Sjekk også ut Geerlings [ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops) og [ansible-vagrant-examples](https://github.com/geerlingguy/ansible-vagrant-examples), to git repositories man kan lære mye av. Geerling har også skrevet en bok som jeg enda ikke har fått lest, men som virker veldig lovende: [Ansible for Devlops](http://www.ansiblefordevops.com/)
+* (Shameless plug!) [Mine egne oppsett-script](https://github.com/cmrosenberg/setup)
 
 ## Vagrant
 
