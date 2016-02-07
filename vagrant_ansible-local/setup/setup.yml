@@ -1,0 +1,6 @@
+- name: Install all the things you need
+  hosts: ubuntu
+  roles:
+      - emacs
+      - tmux
+      - vim

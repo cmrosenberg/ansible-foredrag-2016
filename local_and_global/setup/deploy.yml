@@ -1,0 +1,5 @@
+- name: Install system
+  hosts: all
+  roles:
+      - nginx
+      - memo

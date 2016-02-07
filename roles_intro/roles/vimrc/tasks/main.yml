@@ -1,0 +1,5 @@
+
+- name: Install Vim configuration
+  get_url:
+      url: https://raw.githubusercontent.com/tpope/vim-sensible/master/plugin/sensible.vim
+      dest: ~/.vimrc

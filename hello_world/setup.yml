@@ -1,0 +1,17 @@
+
+
+- name: Set up the digital ocean box
+  hosts: digitalocean
+  tasks:
+      - name: Install a non-root user
+        user:
+            name: cmr
+            append: yes
+            groups: sudo
+            createhome: yes
+            state: present
+
+      - name: Install the best text editor evvah
+        apt:
+            name: vim
+            state: latest

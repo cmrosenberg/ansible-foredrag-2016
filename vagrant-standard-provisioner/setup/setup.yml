@@ -1,0 +1,11 @@
+- name: Install all the things you need
+  hosts: ubuntu #Must match what you specify in config.vm.define in the Vagrantfile
+  roles:
+      - emacs
+      - tmux
+      - vim
+  post_tasks:
+      - name: Do something fun
+        apt:
+            name: git
+            state: present
